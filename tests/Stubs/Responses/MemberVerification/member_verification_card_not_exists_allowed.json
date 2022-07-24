@@ -1,0 +1,17 @@
+{
+    "CardNo": "01-900035308",
+    "FirstName": "",
+    "MiddleName": "",
+    "LastName": "",
+    "FullName": "",
+    "Gender": "",
+    "DateOfBirth": "",
+    "ExpirtDate": "",
+    "CardStatus": "Unknown",
+    "AuthorizationStatus": "ACCEPTED",
+    "AuthorizationNo": "730003",
+    "EmployerNo": "",
+    "SchemeID": "",
+    "ProductCode": "NH001",
+    "Remarks": "The beneficiary should submit the card to the nearby NHIF for verification otherwise the card will be blocked and no service will be issued"
+}

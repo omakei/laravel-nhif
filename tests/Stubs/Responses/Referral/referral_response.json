@@ -1,0 +1,22 @@
+{
+    "$id": "1",
+    "$type": "NHIFService.Models.PatientReferral, NHIFService",
+    "ReferralID": "838ba4f0-8a80- 4658 - bba5-e61ff602ca1d",
+    "CardNo": "01-NHIF45",
+    "AuthorizationNo": "623456789",
+    "PatientFullName": "Said Juma",
+    "Gender": "Male",
+    "ReferringDate": "2018- 01 - 29T10:27:31.637",
+    "PhysicianName": "Amour Rashid",
+    "PhysicianMobileNo": null,
+    "ReferralNo": "21081000019",
+    "ServiceIssuingFacilityCode": "01099",
+    "SourceFacilityCode": "06697",
+    "PhysicianQualificationID": 2,
+    "ReferringDiagnosis": "084,085",
+    "ReasonsForReferral": "Fractured hand needs attention from Orthopaedician at MOI",
+    "CreatedBy": "arashid",
+    "DateCreated": "2018- 01 - 29T10:27:31.637",
+    "LastModifiedBy": "arashid",
+    "LastModified": "2018- 01 - 29T10:27:31.637"
+}

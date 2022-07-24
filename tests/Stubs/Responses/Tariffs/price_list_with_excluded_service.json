@@ -1,0 +1,18 @@
+{
+    [
+        {
+            "ItemCode": "10001",
+            "ItemName": "General Practitioner Consultation",
+            "PackageID": 102,
+            "UnitPrice": 10000.0,
+            "IsRestricted": false
+        },
+        {
+            "ItemCode": "10001",
+            "ItemName": "General Practitioner Consultation",
+            "PackageID": 201,
+            "UnitPrice": 25000.0,
+            "IsRestricted": false
+        }
+    ]
+}

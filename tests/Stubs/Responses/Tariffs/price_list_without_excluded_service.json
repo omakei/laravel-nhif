@@ -1,0 +1,33 @@
+{
+    "FacilityCode": " 01099 ",
+    "PricePackage": [
+        {
+            "ItemCode": "10001",
+            "ItemName": "General Practitioner Consultation",
+            "PackageID": 102,
+            "SchemeID": 1001,
+            "UnitPrice": 10000.0,
+            "IsRestricted": false
+        },
+        {
+            "ItemCode": "10001",
+            "ItemName": "General Practitioner Consultation",
+            " PackageID": 201,
+            "SchemeID": 1002,
+            "UnitPrice": 25000.0,
+            "IsRestricted": false
+        }
+    ],
+    "ExcludedServices": [
+        {
+            "ItemCode": "10001",
+            "SchemeID": 1001,
+            "ExcludedForProducts": "NH003,NH004"
+        },
+        {
+            "ItemCode": "10002",
+            "SchemeID": 1003,
+            "ExcludedForProducts": "NH001,NH002"
+        }
+    ]
+}

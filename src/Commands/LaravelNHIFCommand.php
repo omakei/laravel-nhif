@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Omakei\LaravelNhif\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelNHIFCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-nhif';
 
     public $description = 'My command';
 

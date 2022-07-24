@@ -1,0 +1,17 @@
+{
+    "CardNo": "01-900035308",
+    "FirstName": "",
+    "MiddleName": "",
+    "LastName": "",
+    "FullName": "",
+    "Gender": "",
+    "DateOfBirth": "",
+    "ExpiryDate": "",
+    "CardStatus": "Invalid",
+    "AuthorizationStatus": "Rejected",
+    "AuthorizationNo": "",
+    "EmployerNo": "",
+    "SchemeID": "",
+    "ProductCode": "NH001",
+    "Remarks": "The beneficiary was required to verify his/her card at NHIF office"
+}

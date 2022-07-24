@@ -1,0 +1,167 @@
+{
+    "entities": [
+        {
+            "FolioID": "817d6e75-3bef-4d25-a2e1-a3bc009530ab",
+            "ClaimYear": 2016,
+            "ClaimMonth": 7,
+            "FolioNo": 1,
+            "SerialNo": "SN00 099",
+            "CardNo": "308900035308",
+            "FirstName": "Flora",
+            "LastName": "Mataba",
+            "Gender": "Female",
+            "DateOfBirth": "1974- 01 -23T16:56:20.287",
+            "Age": 30.0,
+            "TelephoneNo": "0686155255",
+            "PatientFileNo": null,
+            "PatientFile": "GQ8XQAYFAiEMfN0qD0COTgMX......",
+            "AuthorizationNo": null,
+            "AttendanceDate": "2014- 09 -01T00:00:00",
+            "PatientTypeCode": "OUT",
+            "DateAdmitted": null,
+            "DateDischarged": null,
+            "PractitionerNo": "12345",
+            "CreatedBy": "Administrator",
+            "DateCreated": "2015- 01 -23T16:56:20.223",
+            "LastModifiedBy": "Administrator",
+            "LastModified": "2015-01 - 2 6T12:31:25.097",
+            "FolioDiseases": [
+                {
+                    "FolioDiseaseID": "e9429e1c-f892-40ae-8c0a-a3bc0095681f",
+                    "DiseaseCode": "084",
+                    "FolioID": "817d6e75-3bef-4d25-a2e1-a3bc009530ab",
+                    "Remarks": null,
+                    "CreatedBy": "Administrator",
+                    "DateCreated": "2015 - 01 -23T16:56:20.287",
+                    "LastModifiedBy": "Administrator",
+                    "LastModified": "2015-01 - 23T16:56:20.287"
+                }
+            ],
+            "FolioItems": [
+                {
+                    "FolioItemID": "e0d30408- 1863 - 4eb4-8cce-a3bc00957501",
+                    "FolioID": "817d6e75-3bef-4d25-a2e1-a3bc009530ab",
+                    "ItemCode": "11",
+                    "OtherDetails": null,
+                    "ItemQuantity": 1,
+                    "UnitPrice": 2000.0,
+                    "AmountClaimed": 2000.0,
+                    "ApprovalRefNo": "NHIF/REF/201000024",
+                    "CreatedBy": "Administrator",
+                    "DateCreated": "2015- 01 -23T16:56:20.35",
+                    "LastModifiedBy": "Administrator",
+                    "LastModified": "2015-01 - 23T16:56:20.35"
+                },
+                {
+                    "FolioItemID": "84ae41a0-514c-489d-8e6f-a3bc00958289",
+                    "FolioID": "817d6e75-3bef-4d25-a2e1-a3bc009530ab",
+                    "ItemCode": "11533",
+                    "OtherDetails": null,
+                    "ItemQuantity": 1,
+                    "UnitPrice": 1950.0,
+                    "AmountClaimed": 1950.0,
+                    "ApprovalRefNo": "null",
+                    "CreatedBy": "Administrator",
+                    "DateCreated": "2015- 01 -23T16:56:20.37",
+                    "LastModifiedBy": "Administrator",
+                    "LastModified": "2015-01 - 23T16:56:20.37"
+                },
+                {
+                    "FolioItemID": "3c5b814c-7fbf-454b-9c9e-a3bc00985ba5",
+                    "FolioID": "817d6e75-3bef-4d25-a2e1-a3bc009530ab",
+                    "ItemCode": "11004",
+                    "OtherDetails": null,
+                    "ItemQuantity": 3,
+                    "UnitPrice": 100.0,
+                    "AmountClaimed": 300.0,
+                    "ApprovalRefNo": "null",
+                    "CreatedBy": "Administrator",
+                    "DateCreated": "2015- 01 -23T16:56:20.39",
+                    "LastModifiedBy": "Administrator",
+                    "LastModified": "2015-01 - 23T16:56:20.39"
+                },
+                {
+                    "FolioItemID": "338ce17c- 1655 - 417f-80e3-a3ca01019326",
+                    "FolioID": "817d6e75-3bef-4d25-a2e1-a3bc009530ab",
+                    "ItemCode": "5039",
+                    "OtherDetails": null,
+                    "ItemQuantity": 2,
+                    "UnitPrice": 3000.0,
+                    "AmountClaimed": 6000.0,
+                    "ApprovalRefNo": "null",
+                    "CreatedBy": "Administrator",
+                    "DateCreated": "2015- 01 -23T16:56:20.41",
+                    "LastModifiedBy": "Administrator",
+                    "LastModified": "2 015 -01 - 23T16:56:20.41"
+                },
+                {
+                    "FolioItemID": "ae3e912a-137b-48e7- 9853 -a3ca01058118",
+                    "FolioID": "817d6e75-3bef-4d25-a2e1-a3bc009530ab",
+                    "ItemCode": "7402",
+                    "OtherDetails": null,
+                    "ItemQuantity": 1,
+                    "UnitPrice": 20000.0,
+                    "AmountClaimed": 20000.0,
+                    "ApprovalRefNo": "null",
+                    "CreatedBy": "Administrator",
+                    "DateCreated": "2015- 01 -23T16:56:20.47",
+                    "LastModifiedBy": "Administrator",
+                    "LastModified": "2015-01 - 23T16:56:20.47"
+                }
+            ]
+        },
+        {
+            "FolioID": "d3d7656b-7c3b- 4392 - b75f-a3ca01048e2b",
+            "ClaimYear": 2016,
+            "ClaimMonth": 7,
+            "FolioNo": 2,
+            "SerialNo": "13/109998777",
+            "CardNo": "109900035308",
+            "FirstName": "Amour",
+            "LastName": "Rashid",
+            "Gender": "Male",
+            "DateOfBirth": "1974- 01 -23T16:56:20.287",
+            "Age": 40.0,
+            "TelephoneNo": "0686155255",
+            "PatientFileNo": null,
+            "AuthorizationNo": null,
+            "AttendanceDate": "2014- 09 -01T00:00:00",
+            "PatientTypeCode": "OUT",
+            "DateAdmitted": null,
+            "DateDischarged": null,
+            "PractitionerNo": null,
+            "CreatedBy": "Administrator",
+            "DateCreated": "2015- 01 -23T16:56:20.247",
+            "LastModifiedBy": "Administrator",
+            "LastModified": "2015-01 - 28T13:31:09.297",
+            "FolioDiseases": [
+                {
+                    "FolioDiseaseID": "c4f56a4c- 6217 - 475d-b3de-a3ca0104c9dc",
+                    "DiseaseCode": "084",
+                    "FolioID": "d3d7656b-7c3b- 4392 - b75f-a3ca01048e2b",
+                    "Remarks": null,
+                    "CreatedBy": "Administrator",
+                    "DateCreated": "2015 - 01 -23T16:56:20.307",
+                    "LastModifiedBy": "Administrator",
+                    "LastModified": "2015-01 - 23T16:56:20.307"
+                }
+            ],
+            "FolioItems": [
+                {
+                    "FolioItemID": "248fa65b-dab8-4ca2- 9905 -a3ca0104cfc7",
+                    "FolioID": "d3d7656b-7c3b- 4392 - b75f-a3ca01048e2b",
+                    "ItemCode": "5036",
+                    "OtherDetails": null,
+                    "ItemQuantity": 1,
+                    "UnitPrice": 3200.0,
+                    "AmountClaimed": 3200.0,
+                    "ApprovalRefNo": "null",
+                    "CreatedBy": "Administrator",
+                    "DateCreated": "2015- 01 -23T16:56:20.43",
+                    "LastModifiedBy": "Administrator",
+                    "LastModified": "2015-01 - 23T16:56:20.43"
+                }
+            ]
+        }
+    ]
+}

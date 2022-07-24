@@ -1,0 +1,12 @@
+{
+    "CardNo": "01-NHIF45",
+    "AuthorizationNo": "623456789",
+    "PatientFullName": "Said Juma",
+    "PhysicianMobileNo": "0655232365",
+    "Gender": "Male",
+    "PhysicianName": "Amour Rashid",
+    "PhysicianQualificationID": 2,
+    "ServiceIssuingFacilityCode": "01099",
+    "ReferringDiagnosis": "084,085",
+    "ReasonsForReferral": "Fractured hand needs attention from Orthopaedician at MOI"
+}

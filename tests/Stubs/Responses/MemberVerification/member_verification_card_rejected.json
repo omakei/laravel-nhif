@@ -1,0 +1,17 @@
+{
+    "CardNo": "07-nhif241",
+    "FirstName": "",
+    "MiddleName": "",
+    "LastName": "",
+    "FullName": "",
+    "Gender": "",
+    "DateOfBirth": "",
+    "ExpirtDate": "",
+    "CardStatus": "Invalid",
+    "AuthorizationStatus": "REJECTED",
+    "AuthorizationNo": "",
+    "EmployerNo": "",
+    "SchemeID": " 1001 ",
+    "ProductCode": "NH001",
+    "Remarks": "The card number entered is invalid. Please check it again or the beneficiary should visit the nearest NHIF office for verification."
+}
