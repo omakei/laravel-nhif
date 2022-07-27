@@ -4,9 +4,13 @@ namespace Omakei\LaravelNhif;
 
 use Illuminate\Support\Facades\Http;
 use Omakei\LaravelNhif\Exceptions\InvalidPayload;
+use  Omakei\LaravelNhif\Traits\InputValidation;
 
 class LaravelNHIF
 {
+
+    use InputValidation;
+
     /**
      * @throws \Throwable
      */
@@ -58,6 +62,9 @@ class LaravelNHIF
      */
     public static function submitClaimToNHIF(array $claim_data)
     {
+        // Validate Submitted Claim Data
+        self::validateClaimData($claim_data);
+
         $response = Http::withHeaders(self::getHeaders())
             ->post(config('nhif.url.claim'), $claim_data);
 
@@ -99,51 +106,51 @@ class LaravelNHIF
         return $response->json();
     }
 
-    public static function validateClaimPayload(array $payload)
-    {
-        $requiredFolioField = [
-            'FolioID' => 'uuid',
-            'FacilityCode' => 'string',
-            'ClaimYear' => 'int',
-            'SerialNo' => 'string',
-            'CardNo' => 'string',
-            'FirstName' => 'string',
-            'LastName' => 'string',
-            'Gender' => 'string:in,Male|Female',
-            'DateOfBirth' => 'Date',
-            'TelephoneNo' => 'string',
-            'PatientFileNo' => 'string',
-            'PatientFile' => 'string',
-            'AuthorizationNo' => 'string',
-            'AttendanceDate' => 'Date',
-            'PatientTypeCode' => 'string',
-            'DateAdmitted' => 'Date|nullable',
-            'DateDischarged' => 'Date|nullable',
-            'PractitionerNo' => 'string',
-            'CreatedBy' => 'string',
-            'DateCreated' => 'Date',
-        ];
+    // public static function validateClaimPayload(array $payload)
+    // {
+    //     $requiredFolioField = [
+    //         'FolioID' => 'uuid',
+    //         'FacilityCode' => 'string',
+    //         'ClaimYear' => 'int',
+    //         'SerialNo' => 'string',
+    //         'CardNo' => 'string',
+    //         'FirstName' => 'string',
+    //         'LastName' => 'string',
+    //         'Gender' => 'string:in,Male|Female',
+    //         'DateOfBirth' => 'Date',
+    //         'TelephoneNo' => 'string',
+    //         'PatientFileNo' => 'string',
+    //         'PatientFile' => 'string',
+    //         'AuthorizationNo' => 'string',
+    //         'AttendanceDate' => 'Date',
+    //         'PatientTypeCode' => 'string',
+    //         'DateAdmitted' => 'Date|nullable',
+    //         'DateDischarged' => 'Date|nullable',
+    //         'PractitionerNo' => 'string',
+    //         'CreatedBy' => 'string',
+    //         'DateCreated' => 'Date',
+    //     ];
 
-        $requiredFolioDiseaseField = [
-            'FolioDiseaseID' => 'uuid',
-            'FolioID' => 'uuid',
-            'DiseaseCode' => 'string',
-            'CreatedBy' => 'string',
-            'DateCreated' => 'Date',
-        ];
+    //     $requiredFolioDiseaseField = [
+    //         'FolioDiseaseID' => 'uuid',
+    //         'FolioID' => 'uuid',
+    //         'DiseaseCode' => 'string',
+    //         'CreatedBy' => 'string',
+    //         'DateCreated' => 'Date',
+    //     ];
 
-        $requiredFolioItemField = [
-            'FolioItemID' => 'uuid',
-            'FolioID' => 'uuid',
-            'ItemCode' => 'string',
-            'ItemQuantity' => 'int',
-            'UnitPrice' => 'float',
-            'AmountClaimed' => 'float',
-            'ApprovalRefNo' => 'string',
-            'CreatedBy' => 'string',
-            'DateCreated' => 'date',
-        ];
-    }
+    //     $requiredFolioItemField = [
+    //         'FolioItemID' => 'uuid',
+    //         'FolioID' => 'uuid',
+    //         'ItemCode' => 'string',
+    //         'ItemQuantity' => 'int',
+    //         'UnitPrice' => 'float',
+    //         'AmountClaimed' => 'float',
+    //         'ApprovalRefNo' => 'string',
+    //         'CreatedBy' => 'string',
+    //         'DateCreated' => 'date',
+    //     ];
+    // }
 
     public static function authenticate()
     {
