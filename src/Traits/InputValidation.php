@@ -5,16 +5,13 @@ namespace Omakei\LaravelNhif\Traits;
 use Illuminate\Support\Facades\Validator;
 use Omakei\LaravelNhif\Exceptions\InvalidClaimException;
 
-
 /**
  *  Validating Provided Inputs
  */
 trait InputValidation
 {
-
     private static function validateClaimData(array $payload)
     {
-
         $validator = Validator::make($payload, [
             'entities.*.FolioID' => ['required', 'string'],
             'entities.*.FacilityCode' => ['required', 'string'],
@@ -54,12 +51,10 @@ trait InputValidation
             'entities.*.FolioItems.*.LastModified' => ['required', 'date'],
         ]);
 
-        if($validator->fails()) {
+        if ($validator->fails()) {
             $errors = json_encode($validator->errors()->all());
-            throw new InvalidClaimException($errors); 
+            throw new InvalidClaimException($errors);
         }
 
-        return;
     }
-    
 }

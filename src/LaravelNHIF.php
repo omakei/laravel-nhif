@@ -8,7 +8,6 @@ use  Omakei\LaravelNhif\Traits\InputValidation;
 
 class LaravelNHIF
 {
-
     use InputValidation;
 
     /**
@@ -97,11 +96,11 @@ class LaravelNHIF
     {
         $response = Http::withHeaders(self::getHeaders())
             ->get(config('nhif.url.pre_approved'),
-            [
-                'CardNo' => $card_number,
-                'ReferenceNo' => $reference_number,
-                'ItemCode' => $item_code,
-            ]);
+                [
+                    'CardNo' => $card_number,
+                    'ReferenceNo' => $reference_number,
+                    'ItemCode' => $item_code,
+                ]);
 
         return $response->json();
     }
@@ -110,10 +109,10 @@ class LaravelNHIF
     public static function authenticate()
     {
         $response = Http::post(config('nhif.url.token'),
-                ['username' => config('nhif.credentials.username'),
-                    'password' => config('nhif.credentials.password'),
-                    'grant_type' => 'password',
-                ]);
+            ['username' => config('nhif.credentials.username'),
+                'password' => config('nhif.credentials.password'),
+                'grant_type' => 'password',
+            ]);
 
         return $response->json();
     }
