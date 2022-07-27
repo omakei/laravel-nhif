@@ -105,7 +105,6 @@ class LaravelNHIF
         return $response->json();
     }
 
-
     public static function authenticate()
     {
         $response = Http::post(config('nhif.url.token'),

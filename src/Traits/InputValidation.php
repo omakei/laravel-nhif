@@ -55,6 +55,5 @@ trait InputValidation
             $errors = json_encode($validator->errors()->all());
             throw new InvalidClaimException($errors);
         }
-
     }
 }
