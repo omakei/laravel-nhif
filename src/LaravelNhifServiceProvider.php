@@ -6,7 +6,7 @@ use Omakei\LaravelNhif\Commands\LaravelNHIFCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class LaravelNHIFServiceProvider extends PackageServiceProvider
+class LaravelNhifServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
