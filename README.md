@@ -2,6 +2,7 @@
 <p align="center">
     <img src="/art/nhif-logo.png" width="300" title="NHIF Logo" alt="NextSMS Logo">
 </p>
+
 # Laravel NHIF
 
 A Laravel package to integrate NHIF Tanzania with hospital management systems.
