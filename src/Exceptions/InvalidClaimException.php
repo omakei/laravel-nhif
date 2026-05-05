@@ -4,6 +4,4 @@ namespace Omakei\LaravelNhif\Exceptions;
 
 use Exception;
 
-final class InvalidClaimException extends Exception
-{
-}
+final class InvalidClaimException extends Exception {}

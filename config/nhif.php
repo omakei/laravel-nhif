@@ -7,7 +7,7 @@ return [
         'username' => env('NHIF_USERNAME', ''),
         'password' => env('NHIF_PASSWORD', ''),
     ],
-    'mode' => 'test', //it maybe test or production
+    'mode' => 'test', // it maybe test or production
     'url' => [
         'test' => 'http://196.13.105.15/nhifservice/breeze/',
         'production' => 'https://verification.nhif.or.tz/nhifservice/breeze/',

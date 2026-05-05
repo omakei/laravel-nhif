@@ -4,7 +4,7 @@ namespace Omakei\LaravelNhif;
 
 use Illuminate\Support\Facades\Http;
 use Omakei\LaravelNhif\Exceptions\InvalidPayload;
-use  Omakei\LaravelNhif\Traits\InputValidation;
+use Omakei\LaravelNhif\Traits\InputValidation;
 
 class LaravelNHIF
 {
